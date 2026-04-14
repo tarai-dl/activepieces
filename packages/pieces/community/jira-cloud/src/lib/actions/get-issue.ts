@@ -73,7 +73,7 @@ Notes:
     const { issueId, expand, mapNames, mapTransitions } = context.propsValue;
 
     const queryParams = {} as QueryParams;
-    let expandParams = expand as string[];
+    const expandParams = expand as string[];
 
     // implicitly expand names which is needed for mapping
     if (mapNames) {
